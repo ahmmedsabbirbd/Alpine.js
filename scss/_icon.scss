@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'MonoLisa';
+    src: url('fonts/MonoLisa-Regular.woff2') format('woff2'),
+        url('fonts/MonoLisa-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MonoLisa-RegularItalic';
+    src: url('fonts/MonoLisa-RegularItalic.woff2') format('woff2'),
+        url('fonts/MonoLisa-RegularItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MonoLisa';
+    src: url('fonts/MonoLisa-Bold.woff2') format('woff2'),
+        url('fonts/MonoLisa-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+	font-family: 'rustdao';
+	src: url('fonts/rustdao.eot?91788323');
+	src: url('fonts/rustdao.eot?91788323#iefix') format('embedded-opentype'),
+	 	url('fonts/rustdao.woff2?91788323') format('woff2'),
+		url('fonts/rustdao.woff?91788323') format('woff'),
+	 	url('fonts/rustdao.ttf?91788323') format('truetype'),
+	 	url('fonts/rustdao.svg?91788323#rustdao') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[data-icon]:before {
+	speak: none;
+	line-height: 1;
+	font-family: 'rustdao';
+	font-style: normal !important;
+	font-weight: normal !important;
+	font-variant: normal !important;
+	text-transform: none !important;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+ 
+[class^="icon-"]:before, [class*=" icon-"]:before {
+	speak: none;
+	line-height: 1;
+	font-family: 'rustdao';
+	font-style: normal !important;
+	font-weight: normal !important;
+	font-variant: normal !important;
+	text-transform: none !important;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-tiktok:before { content: '\e800'; }
+.icon-mail:before { content: '\e801'; }
+.icon-arrow-right:before { content: '\e802'; }
+.icon-arrow-up:before { content: '\e803'; }
+.icon-discord:before { content: '\e804'; }
+.icon-minus:before { content: '\e805'; }
+.icon-phone:before { content: '\e806'; }
+.icon-plus:before { content: '\e807'; }
+.icon-arrow-down:before { content: '\e808'; }
+.icon-arrow-left:before { content: '\e809'; }
+.icon-twitter:before { content: '\f099'; }
+.icon-facebook:before { content: '\f09a'; }
+.icon-git:before { content: '\f1d3'; }
+.icon-qq:before { content: '\f1d6'; }
+.icon-whatsapp:before { content: '\f232'; }
+.icon-twitter-bird:before { content: '\f303'; }
+.icon-skype:before { content: '\f30b'; }
+.icon-vimeo:before { content: '\f30f'; }
+.icon-linkedin:before { content: '\f318'; }

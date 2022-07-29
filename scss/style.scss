@@ -1,0 +1,80 @@
+/*
+Theme Name: RustDao
+Author: GoingClear Interactive
+Author URI: https://www.goingclear.com/
+Version: 1.0.0
+Text Domain: rustdao
+*/
+
+/***********************************
+BASE STYLES
+***********************************/
+
+// COLORS
+$white:#FFF;
+$black:#000;   
+$primary:#E2C2B5;
+$secondary:#C6470F; 
+
+// MIXIN
+@import 'mixin';
+
+// ICON FONTS
+@import 'icon';
+
+@import 'base';
+
+body {
+	margin: 0;
+	width: 100%;
+	height: 100%; 
+	color: $black;
+	background: $white;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;  
+}
+
+h1, .h1 { font-size: 84px;	line-height: 104px;  
+	&.fz-lg { font-size: 124px; line-height: 142px; }  
+} 
+h2, .h2 { font-size: 48px;	line-height: 60px; }
+h3, .h3 { font-size: 36px;	line-height: 48px; }
+h4, .h4 { font-size: 30px;	line-height: 42px; } 
+h5, .h5 { font-size: 24px;	line-height: 36px; } 
+h6, .h6 { font-size: 18px;	line-height: 28px; 
+	&.fz-sm { font-size: 16px;	line-height: 22px; }
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 { 
+	font-weight:  500;
+}
+
+a, button {
+
+	&:hover, &:focus {
+		outline: 0;
+		text-decoration: none;
+	}
+}
+
+p {
+	margin: 0 0 30px;
+}
+
+section {
+	padding: 40px 0;
+}
+
+.container {
+	width: 100%;
+	max-width: 1450px;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+[x-cloak] {
+	display: none;
+}
+ 
+@import 'responsive';
